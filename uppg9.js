@@ -7,8 +7,19 @@ function uppg9 (){
     // resultatet ska loggas i formatet: talet och sen ordet "jämt" eller "udda"
 
     // anropa funktionen och skicka med en array som argument
-
   
+    function sort(numbers) {
+        for (number of numbers) {
+            if (number %2 === 0) {
+                console.log(number, "jämt")
+            }
+            else {
+                console.log(number, "udda")
+            }
+        }
+    }
+  
+    sort ([1,2,3,4,5,6,7,8,9])   
 }
 
 module.exports = { uppg9 };
